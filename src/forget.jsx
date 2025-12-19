@@ -10,7 +10,7 @@ function Forget() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:9000/forget", {
+      const res = await axios.post("https://backend-25d4.onrender.com//forget", {
         userName,
         password,
       });

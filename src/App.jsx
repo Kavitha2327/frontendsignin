@@ -9,14 +9,14 @@ import HomePage from "./HomePage";
 function App() {
   return (
     <>
-      <HomePage />
-      {/* <BrowserRouter>
+      {/* <HomePage /> */}
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Signin />} />
           <Route path="/login" element={<Login />} />
           <Route path="/forget" element={<Forget />} />
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
       {/* <Upload /> */}
     </>
     //<Excel />
