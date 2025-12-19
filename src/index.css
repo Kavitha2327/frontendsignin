@@ -1,0 +1,178 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+#form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+#form h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+#form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  color: #555;
+}
+
+#form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#form button[type="submit"] {
+  width: 100%;
+  padding: 0.6rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#form button[type="submit"]:hover {
+  background: #006ae6;
+}
+
+#form p {
+  margin-top: 1rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+#form #log {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+#form #log:hover {
+  background: #007bff;
+  color: white;
+}
+
+#for {
+  margin-top: 0.5rem;
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+#for:hover {
+  color: #0056b3;
+}
+/*
+* {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background-color: aliceblue;
+}
+body {
+  padding: 20px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+h1 {
+  color: rgb(91, 172, 244);
+}
+#nav {
+  display: flex;
+  position: relative;
+}
+input {
+  padding: 10px 50px 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+#search {
+  margin-left: 10px;
+}
+#wish {
+  position: absolute;
+  right: 50px;
+}
+button {
+  border: none;
+  padding: 10px 30px 10px 30px;
+  border-radius: 6px;
+  background-color: rgb(155, 201, 242);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#bookContainer,
+#wishlistContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card button {
+  width: 100%;
+  margin-top: 8px;
+}
+.card {
+  width: 220px;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#image {
+  width: 220px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+.card button {
+  background-color: rgb(91, 172, 244);
+  color: white;
+  font-size: 16px;
+}
+*/
