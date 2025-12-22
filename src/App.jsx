@@ -4,13 +4,10 @@ import Login from "./Login";
 import Forget from "./forget";
 import Excel from "./excel";
 import Upload from "./excel";
-import HomePage from "./HomePage";
-
 function App() {
   return (
     <>
       {/* <HomePage /> */}
-      {/*<HomePage />*/}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Signin />} />
